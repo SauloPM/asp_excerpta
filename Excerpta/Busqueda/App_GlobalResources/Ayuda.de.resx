@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="imgBiblioteca1" xml:space="preserve">
+    <value>~/Images/ayuda/biblioteca/aleman1.png</value>
+  </data>
+  <data name="imgBiblioteca2" xml:space="preserve">
+    <value>~/Images/ayuda/biblioteca/aleman2.png</value>
+  </data>
+  <data name="imgBiblioteca3" xml:space="preserve">
+    <value>~/Images/ayuda/biblioteca/aleman3.png</value>
+  </data>
+  <data name="imgBuscar1" xml:space="preserve">
+    <value>~/Images/ayuda/buscar/aleman1.png</value>
+  </data>
+  <data name="imgHojear1" xml:space="preserve">
+    <value>~/Images/ayuda/hojear/aleman1.png</value>
+  </data>
+  <data name="imgHojear2" xml:space="preserve">
+    <value>~/Images/ayuda/hojear/aleman2.png</value>
+  </data>
+  <data name="imgHojear3" xml:space="preserve">
+    <value>~/Images/ayuda/hojear/aleman3.png</value>
+  </data>
+  <data name="labelBiblioteca1" xml:space="preserve">
+    <value>Zu Beginn erscheint eine Liste mit sämtlichen im System gespeicherten bibliografischen Quellen. Klickt man die Kopfzeile der Liste an, dann wechselt die bestehende alphabetische Anordnung von A bis Z auf die Anordnung von Z bis A; bei erneutem Anklicken wird die Anordnung von A bis Z wieder zurückgestellt. Desweiteren ist rechts oberhalb der Liste die Gesamtanzahl der vorhandenen Quellen zu sehen. Auf der linken Seite befindet sich eine Schaltfläche mit einer Auswahlliste. Wird diese angeklickt, kann man einen Buchstaben auswählen, sodass nur jene Quellen erscheinen, die mit dem gewählten Buchstaben anfangen. Unter der Liste befindet sich eine Taste, mit der man die abgerufene Liste bibliografischer Quellen als Text-Datei herunterladen kann.</value>
+  </data>
+  <data name="labelBiblioteca2" xml:space="preserve">
+    <value>In der nächsten Abbildung ist eine Liste mit bibliografischen Quellen zu sehen, welche mit dem Buchstaben “J” anfangen, da wir für vorliegendes Beispiel diesen Buchstaben ausgewählt haben, wie auch in der Auswahlliste zu erkennen ist. Für andere Buchstaben gilt der analoge Vorgang. Möchte man wieder die komplette Liste sehen, dann ist in der Auswahlliste die Option “Komplette Bibliografie” anzuklicken. Wenn man einen Buchstaben ausgewählt hat, so ist zu beachten, dass die heruntergeladene Liste der bibliografischen Quellen nur solche enthält die mit diesem Buchstaben anfangen; d. h. der Inhalt der heruntergeladenen Text-Datei hängt von dem ausgewählten Buchstaben ab.</value>
+  </data>
+  <data name="labelBiblioteca3" xml:space="preserve">
+    <value>Wir können auch neue bibliografische Quellen hinzufügen. Hierfür steht ein Formular zur Verfügung, das in der nächsten Abbildung zu sehen ist, und zu welchem man über den zweiten Tab in der jetzigen Sektion gelangt. Einige der Felder sind deaktiviert, weil zuerst eine der drei Optionen ausgewählt werden muss. Klicken wir die erste Option an, dann aktivieren sich die Felder “Artikel” und “Zeitschrift”; bei der zweiten Option aktivieren sich die Felder “Kapitel”, “Buch” und “Herausgeber”; bei der dritten Option aktiviert sich das Feld “Buch”. Hierdurch wird die Anwendung der APA-Normen erfüllt, die wiederum verschiedene Formate zulässt, für die sich der Nutzer je nach Bedarf selbst entscheiden kann.</value>
+  </data>
+  <data name="labelBiblioteca4" xml:space="preserve">
+    <value>Alle aktivierten Felder sind auszufüllen. Ist die Bearbeitung des Formulars beendet, wird die bibliografische Quelle für ihre Überprüfung an den Administrator weitergeleitet. Sollten keine Fehler bestehen, wird sie dann zusammen mit den anderen Quellen in der bibliografischen Liste zu sehen sein.</value>
+  </data>
+  <data name="labelBuscar1" xml:space="preserve">
+    <value>Stellen Sie die Suchfilter der Anfrage so ein, dass die gewünschten Auszüge gefunden werden. Zu Beginn erscheint kein Suchergebnis, da der Suchfilter noch nicht eingestellt worden ist. Keines der Felder muss pflichtmässig ausgefüllt werden; selbst das Suchen mit leerem Filter ist möglich, obgleich dann sämtliche im System vorhandenen Auszüge angezeigt werden. Haben Sie einen Suchfilter eingestellt und möchten aber die Filtereinstellung erneut aktivieren, so müssen Sie einfach nur den “Verwerfen“-Knopf anklicken, ohne dass alle Standardoptionen für jedes Feld neu zurückgestellt werden müssen.</value>
+  </data>
+  <data name="labelBuscar2" xml:space="preserve">
+    <value>Für den gesuchten Gegenstand können bestimmte Werte festgelegt werden. Bei den ersten drei öffnet sich eine Auswahlliste. Der erste Gegenstand erlaubt es ein Florilegium auszuwählen, der Zweite einen Autor und der Dritte ein Werk. Bei der Einstellung des Wertes ist es ratsam geordnet vorzugehen:  zuerst das Florilegium, dann Autor und zuletzt das Werk, denn sie sind kaskadenmässig sinchronisiert, d. h. wenn man z. B. das Florilegium Murmellius auswählt, dann werden nur die Autoren angezeigt, deren Auszüge in diesem Florilegium enthalten sind, und wenn man z. B. den Autor Ovidius auswählt, werden nur dessen Werke angezeigt. Geht man also bei der Werteeinstellung dieser drei Suchgegenstände nicht geordnet vor, dann aktivieren sich beim Auswählen eines Florilegiums die Suchfelder für Autor und Werk, und beim Auswählen eines Autors nur das Suchfeld für seine Werke.</value>
+  </data>
+  <data name="labelBuscar3" xml:space="preserve">
+    <value>Die anderen Suchgegenstände werden durch Texteingabe eingestellt. Hinsichtlich Kapitel, Unterkapitel, Auszug oder TLL kann, mittels Trennung durch Anführungszeichen, nach Wortsegmenten, Satzteilen oder Sätzen gesucht werden. Will man eine einfache oder kombinierte Suche nach ganzen Wörtern unternehmen, dann ist der letzte Gegenstand des Filters zu nutzen.</value>
+  </data>
+  <data name="labelBuscar4" xml:space="preserve">
+    <value>Auf der rechten Seite sind die Optionen für logische Operatoren zu sehen. In der Voreinstellung erscheinen alle Operatoren als “und”, aber die Option “oder” ist auch möglich. Nach Auswahl einer der beiden Operatoren findet dieser direkt Anwendung auf den nächsten selbst gewählten Gegenstand: hat man z. B. das Florilegium Murmellius mit dem Operator “oder” ausgewählt, aber keinen Autor, doch aber ein Werk, gilt “oder” als der verbindende Operator zwischen dem Florilegium und dem Werk, wobei der Autor nicht in den Vorgang einbezogen wird, da ein solcher nicht ausgewählt wurde.</value>
+  </data>
+  <data name="labelHojear1" xml:space="preserve">
+    <value>Wählen Sie zuerst eine der drei Kategorien aus. Sie können die Suche nach Florilegium, Autor oder Werk ausführen. In allen drei Fällen erscheint eine Liste mit den zur jeweiligen Kategorie gehörenden Ergebnissen. Hat man z. B. die Kategorie nach Autoren gewählt, erscheint eine Liste mit sämtlichen im System gespeicherten Autoren. Ferner kann die Reihenfolge der Präsentierung per Anklicken einer beliebigen Listen-Kopfzeile geändert werden.</value>
+  </data>
+  <data name="labelHojear2" xml:space="preserve">
+    <value>Nun müssen wir den gewünschten Gegenstand durch Anklicken des Knopfes der entsprechenden Zeile auswählen. So gelangen wir zur Liste der mit dem gewählten Gegenstand verbundenen Kapitel (siehe nächste Abbildung). Wenn wir Zugang zu allen vorhandenen Kapiteln wünschen, dann muss man statt eines bestimmten Gegenstandes die Option “Alle auswählen“ anklicken, die sich weiter unten befindet.</value>
+  </data>
+  <data name="labelHojear3" xml:space="preserve">
+    <value>In dieser Abbildung ist eine Liste der für den Autor Vergilius verfügbaren Kapitel zu sehen, deren Titel in der zweiten Spalte verfügbar sind. Von hier sind auch beide anderen Kategorien zugänglich, man kann aber auch von dieser Stelle wieder zur Autorenliste zurückkehren (wie das Beispiel der Abbildung zeigt). </value>
+  </data>
+  <data name="labelHojear4" xml:space="preserve">
+    <value>Wie man sehen kann, wurden für diesen Autor drei Kapitel gefunden. Von hier aus führen wir einen ähnlichen Vorgang wie beim vorangegangenen Schritt aus: wir wählen das gewünschte Kapitel durch Anklicken des Knopfes der entsprechenden Zeile. Anschliessend erscheint die Kartei eines Auszugs des ausgewählten Kapitels, wie in der Abbildung zu sehen ist.</value>
+  </data>
+  <data name="labelHojear5" xml:space="preserve">
+    <value>In der Kartei selbst sehen wir eine Tabelle mit allen Einzelheiten zu diesem Auszug. Klickt man den Knopf “Zurück” an, gelangt man zurück zur Liste der Kapitel. Auch das Surfen zwischen den verschiedenen Karteien der gefundenen Auszüge (wenn mehr als einer gefunden wurde) ist über die Richtungspfeile oberhalb der Tabelle möglich. Die beiden Knöpfe unterhalb wiederum ermöglichen das Herunterladen des Karteiinhalts des angezeigten Auszuges als Text-Datei oder auch das Einsehen der betreffenden Seite des Florilegiums aus der für das Projekt genutzten Renaissance-Ausgabe in Form einer digitalisierten PDF-Datei.</value>
+  </data>
+</root>

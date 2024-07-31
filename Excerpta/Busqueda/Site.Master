@@ -1,0 +1,188 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="Busqueda.SiteMaster" %>
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head runat="server">
+
+    <title>Proyecto Excerpta</title>
+
+    <link href="~/Images/favicon.png" rel="shortcut icon" type="image/x-icon" />
+
+    <meta charset="utf-8">
+    <meta name="author"      content="Saulo Poveda Montesdeoca">
+    <meta name="description" content="El Proyecto Excerpta ofrece extractos de una serie de florilegios latinos poéticos del siglo XVI, que estarán a disposición de los investigadores de manera progresiva.">
+    <meta name="viewport"    content="width=device-width, initial-scale=1.0">
+
+    <asp:PlaceHolder runat="server">
+        <%: Scripts.Render("~/bundles/modernizr") %>
+    </asp:PlaceHolder>
+
+    <webopt:bundlereference runat="server" path="~/Content/css" />
+
+    <!-- ───────────── -->
+    <!--     FONTS     -->
+    <!-- ───────────── -->
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500"   rel="stylesheet" >
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:900"     rel="stylesheet" >
+
+    <!-- Font Awesome CDN -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" />
+
+    <!-- ─────────── -->
+    <!--     CSS     -->
+    <!-- ─────────── -->
+
+    <!-- Animate.css CDN -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css"   rel="stylesheet" />
+
+</head>
+<body id="top">
+
+    <form runat="server" id="general">
+        <asp:ScriptManager runat="server">
+            <Scripts>
+                <%--To learn more about bundling scripts in ScriptManager see https://go.microsoft.com/fwlink/?LinkID=301884 --%>
+                <%--Framework Scripts--%>
+                <asp:ScriptReference Name="MsAjaxBundle"                                                                          />
+                <asp:ScriptReference Name="jquery"                                                                                />
+                <asp:ScriptReference Name="bootstrap"                                                                             />
+                <asp:ScriptReference Name="WebForms.js"        Assembly="System.Web" Path="~/Scripts/WebForms/WebForms.js"        />
+                <asp:ScriptReference Name="WebUIValidation.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebUIValidation.js" />
+                <asp:ScriptReference Name="MenuStandards.js"   Assembly="System.Web" Path="~/Scripts/WebForms/MenuStandards.js"   />
+                <asp:ScriptReference Name="GridView.js"        Assembly="System.Web" Path="~/Scripts/WebForms/GridView.js"        />
+                <asp:ScriptReference Name="DetailsView.js"     Assembly="System.Web" Path="~/Scripts/WebForms/DetailsView.js"     />
+                <asp:ScriptReference Name="TreeView.js"        Assembly="System.Web" Path="~/Scripts/WebForms/TreeView.js"        />
+                <asp:ScriptReference Name="WebParts.js"        Assembly="System.Web" Path="~/Scripts/WebForms/WebParts.js"        />
+                <asp:ScriptReference Name="Focus.js"           Assembly="System.Web" Path="~/Scripts/WebForms/Focus.js"           />
+                <asp:ScriptReference Name="WebFormsBundle"                                                                        />
+                <%--Site Scripts--%>
+            </Scripts>
+        </asp:ScriptManager>
+
+        <!--
+        ╔══════════════════════════════╗
+        ║     NAVEGACION SUAVIZADA     ║
+        ╚══════════════════════════════╝
+        -->
+
+        <div class="fondo-blanco">
+            <asp:Image runat="server" ImageUrl="~/Images/logo.svg" CssClass="logo" AlternateText="Logotipo del Proyecto Excerpta" />
+        </div>
+
+        <!--
+        ╔════════════════╗
+        ║     NAVBAR     ║
+        ╚════════════════╝
+        -->
+
+        <nav id="navbar">
+            <div class="container">
+
+                <!-- Brand -->
+                <asp:HyperLink runat="server" NavigateUrl="~/Default.aspx" Text="Excerpta" CssClass="brand" />
+
+                <!-- Ítems -->
+                <ul class="items">
+                    <li class="item" runat="server" id="NavHojear">
+                        <asp:HyperLink runat="server" NavigateUrl="~/Hojear.aspx">
+                            <asp:Label runat="server" meta:resourcekey="NavbarHojear" />
+                        </asp:HyperLink>
+                    </li>
+                    <li class="item" runat="server" id="NavBuscar">
+                        <asp:HyperLink runat="server" NavigateUrl="~/Buscar.aspx">
+                            <asp:Label runat="server" meta:resourcekey="NavbarBuscar" />
+                        </asp:HyperLink>
+                    </li>
+                    <li class="item" runat="server" id="NavBiblioteca">
+                        <asp:HyperLink runat="server" NavigateUrl="~/Biblioteca.aspx">
+                            <asp:Label runat="server" meta:resourcekey="NavbarBiblioteca" />
+                        </asp:HyperLink>
+                    </li>
+                    <li class="item" runat="server" id="NavCreditos">
+                        <asp:HyperLink runat="server" NavigateUrl="~/Default.aspx#proyecto">
+                            <asp:Label runat="server" meta:resourcekey="NavbarCreditos" />
+                        </asp:HyperLink>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="burger-button">
+            <span class="barra"></span>
+            <span class="barra"></span>
+            <span class="barra"></span>
+        </div>
+
+        <!--
+        ╔═══════════════════╗
+        ║     CONTENIDO     ║
+        ╚═══════════════════╝
+        -->
+
+        <asp:ContentPlaceHolder ID="MainContent" runat="server" />
+
+        <!-- Top Button -->
+        <asp:HyperLink runat="server" NavigateUrl="#top" CssClass="top-button smooth-scrolling">
+            <i class="icono fa fa-fw fa-angle-up"></i>
+            <i class="icono fa fa-fw fa-angle-up"></i>
+        </asp:HyperLink>
+
+        <!--
+        ╔════════════════╗
+        ║     FOOTER     ║
+        ╚════════════════╝
+        -->
+
+        <footer>
+
+            <div class="overlay"></div>
+
+            <!-- Logos colaboradores -->
+            <div class="container hidden">
+                <div class="patrocinadores">
+                    <asp:Image runat="server" ImageUrl="~/Images/footer-logo1.svg" CssClass="logo img-responsive" AlternateText="Universidad de Las Palmas de Gran Canaria e Instituto Universitario de Análisis y Aplicaciones Textuales" />
+                    <asp:Image runat="server" ImageUrl="~/Images/footer-logo5.png" CssClass="logo img-responsive" AlternateText="Gobierno de Canarias" />
+                    <asp:Image runat="server" ImageUrl="~/Images/footer-logo6.png" CssClass="logo img-responsive" AlternateText="Canarias Avanza con Europa" />
+                    <asp:Image runat="server" ImageUrl="~/Images/footer-logo7.png" CssClass="logo img-responsive" AlternateText="Fondo Europeo de Desarrollo Regional" />
+                </div>
+            </div>
+
+            <!-- Logos patrocinadores -->
+            <div class="colaboradores hidden">
+                <a class="logo" href="https://www.unito.it/" target="_blank">
+                    <asp:Image runat="server" ImageUrl="~/Images/footer-logo2.png" CssClass="img-responsive" AlternateText="Biblioteca Storica di Ateneo Arturo Graf de la Università degli Studi di Torino" />
+                </a>
+                <a class="logo" href="https://bibliotecahistorica.usal.es/" target="_blank">
+                    <asp:Image runat="server" ImageUrl="~/Images/footer-logo3.png" CssClass="img-responsive" AlternateText="Biblioteca General Histórica de la Universidad de Salamanca" />
+                </a>
+                <a class="logo" href="https://www.bsb-muenchen.de/" target="_blank">
+                    <asp:Image runat="server" ImageUrl="~/Images/footer-logo4.png" CssClass="img-responsive" AlternateText="Bayerische Staatsbibliothek" />
+                </a>
+            </div>
+        </footer>
+
+        <!-- Copyright -->
+        <div class="copyright">
+            &copy;&nbsp;
+            <asp:Label runat="server" CssClass="footerCopyright" meta:resourcekey="Copyright" />
+        </div>
+    </form>
+
+    <!-- WCAG Fixing (do not delete since it's hidden from view) -->
+    <button type="submit" form="general" class="hidden" title="Botón"></button>
+
+    <!--
+    ╔════════════╗
+    ║     JS     ║
+    ╚════════════╝
+    -->
+
+    <!-- Local -->
+    <script type="text/javascript" src="/Scripts/functions.js"></script>
+
+</body>
+</html>

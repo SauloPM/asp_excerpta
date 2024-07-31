@@ -1,0 +1,200 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BienvenidoParrafo1.Text" xml:space="preserve">
+    <value>En raison de leur diffusion, les florilèges ont eu une grande importance dans l'établissement de la pensée européenne. Cependant, ils sont toujours étudiés avec une méthode qui ralentit l'obtention de résultats significatifs, car, en général, on fait appel à une méthode philologique traditionnelle ; c'est-à-dire,  une lecture directe dans les textes manuscrits ou dans des éditions renaissantes, et des transcriptions ou des annotations des extraits nécessaires pour justifier l'analyse ou les résultats d'une recherche précise.</value>
+  </data>
+  <data name="BienvenidoParrafo2.Text" xml:space="preserve">
+    <value>Le projet Excerpta solutionne de manière simple ce problème en donnant accès en ligne à des florilèges poétiques latins encodés. Cela permet de réaliser une recherche comparée et par des segments, ainsi que la consultation simple ou combinée des florilèges (auteur, extrait d'une œuvre, chapitre ou titre, sous-chapitre ou sous-titre et terme ou mot concret) pour mieux contribuer à une plus grande et meilleure quantité et qualité des recherches sur les florilèges ou pour celles qui utilisent les florilèges comme source pour les études humanistes ou sociales. Grâce au projet Excerpta la lecture directe ne sera plus le seul moyen d'obtenir des données pour l'analyse.</value>
+  </data>
+  <data name="BienvenidoParrafo3.Text" xml:space="preserve">
+    <value>Ce projet est réalisé par l'Instituto Universitario de Análisis y Aplicaciones Textuales (IATEXT) de la Universidad de Las Palmas de Gran Canaria, en collaboration avec la Bibliothèque générale historique de l'Université de Salamanca, de la Bibliothèque Storica di Ateneo 
+"Arturo Graf" de la Università degli Studi di Torino y de la Bayerische 
+StaatsBibliothek.</value>
+  </data>
+  <data name="BienvenidoSubtitulo.Text" xml:space="preserve">
+    <value>Le projet Excerpta</value>
+  </data>
+  <data name="BienvenidoTitulo.Text" xml:space="preserve">
+    <value>À propos</value>
+  </data>
+  <data name="Callout.Text" xml:space="preserve">
+    <value>Le projet Excerpta donne accès online à des florilèges poétiques latins étiquetés. Il améliore la quantité et la qualité des recherches sur les florilèges qui sont utilisés comme sources ou pour les études en Sciences humaines et sociales.</value>
+  </data>
+  <data name="ContactoPlaceholder1.Text" xml:space="preserve">
+    <value>Nom et prénom</value>
+  </data>
+  <data name="ContactoPlaceholder2.Text" xml:space="preserve">
+    <value>Courrier</value>
+  </data>
+  <data name="ContactoPlaceholder3.Text" xml:space="preserve">
+    <value>Objet</value>
+  </data>
+  <data name="ContactoPlaceholder4.Text" xml:space="preserve">
+    <value>Message</value>
+  </data>
+  <data name="ContactoBoton.Text" xml:space="preserve">
+    <value>Envoyer</value>
+  </data>
+  <data name="ContactoTitulo.Text" xml:space="preserve">
+    <value>Contact</value>
+  </data>
+  <data name="ContactoSubtitulo.Text" xml:space="preserve">
+    <value>Pour toute question ou renseignement, n'hésitez pas à nous contacter</value>
+  </data>
+  <data name="Portada.Text" xml:space="preserve">
+    <value>Projet Excerpta</value>
+  </data>
+  <data name="ProyectoParrafo1.Text" xml:space="preserve">
+    <value>El Proyecto Excerpta está liderado por el &lt;a href="http://www.iatext.ulpgc.es/" target="_blank"&gt;Instituto Universitario de Análisis y Aplicaciones Textuales&lt;/a&gt; de la &lt;a href="https://www.ulpgc.es/node" target="_blank"&gt;Universidad de Las Palmas de Gran Canaria&lt;/a&gt; y cuenta con la colaboración de la Biblioteca Histórica de la Universidad de Salamanca, la Biblioteca “Arturo Graf” de la Universita degli Studi di Torino y la Bayerische Staatsbibliothek.</value>
+  </data>
+  <data name="ProyectoParrafo2.Text" xml:space="preserve">
+    <value>Los florilegios incorporados al Proyecto Excerpta han sido etiquetados a través de un &lt;a href="http://anotaexcerpta.iatext.ulpgc.es" target="_blank"&gt;aplicativo de anotación&lt;/a&gt; diseñado para que los filólogos puedan realizar las anotaciones de manera cómoda, rápida e intuitiva. Los conceptos de investigación colaborativa y de ciencia abierta están en la base de este proyecto, por lo que los investigadores que lo deseen pueden participar en el proyecto incorporando sus anotaciones de estos florilegios o de otros nuevos en los que estén trabajando. Además, los extractos estarán a disposición de los investigadores en cuanto una obra o autor esté completamente anotado, sin necesidad de esperar a que la totalidad del florilegio se pueda consultar. A continuación damos cuenta de qué florilegios, autores y obras se pueden hacer búsquedas.</value>
+  </data>
+  <data name="ProyectoSubtitulo" xml:space="preserve">
+    <value>Responsable principal du projet</value>
+  </data>
+  <data name="ProyectoTitulo" xml:space="preserve">
+    <value>Projet</value>
+  </data>
+  <data name="ServiciosItem1.Text" xml:space="preserve">
+    <value>Visualiser</value>
+  </data>
+  <data name="ServiciosItem2.Text" xml:space="preserve">
+    <value>Chercher</value>
+  </data>
+  <data name="ServiciosItem3.Text" xml:space="preserve">
+    <value>Bibliothèque</value>
+  </data>
+  <data name="ServiciosParrafo1.Text" xml:space="preserve">
+    <value>On peut faire la recherche  à travers les titres sélectionnés ou les lemmes du florilège choisi et réaliser une recherche préalable afin de déterminer si les sujets qui intéressent le chercheur se trouvent dans le florilège.</value>
+  </data>
+  <data name="ServiciosParrafo2.Text" xml:space="preserve">
+    <value>Ce service permet de faire  des recherches à travers un ou plusieurs critères (extrait, auteur, œuvre, etc.). De même,  il permet faire une recherche suivant le mot exact ou par analogie.</value>
+  </data>
+  <data name="ServiciosParrafo3.Text" xml:space="preserve">
+    <value>Ce service présente une bibliographie critique sur les florilèges. Il propose un formulaire online pour que les chercheurs puissent compléter cette bibliographie avec leurs propres publications.</value>
+  </data>
+  <data name="ServiciosTitulo.Text" xml:space="preserve">
+    <value>Services</value>
+  </data>
+  <data name="CreditosTitulo.Text" xml:space="preserve">
+    <value>Crédits</value>
+  </data>
+</root>

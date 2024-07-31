@@ -1,0 +1,485 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E898EC04-805B-4954-A987-7E4DB0A8538C}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Excerptas</RootNamespace>
+    <AssemblyName>Excerptas</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>4.0</OldToolsVersion>
+    <IISExpressSSLPort>44319</IISExpressSSLPort>
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <TargetFrameworkProfile />
+    <Use64BitIISExpress />
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>0</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxControlToolkit, Version=19.1.0.0, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
+      <HintPath>..\packages\AjaxControlToolkit.19.1.0\lib\net40\AjaxControlToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp, Version=5.5.13.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\iTextSharp.5.5.13\lib\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.IO.Compression" />
+    <Reference Include="System.IO.Compression.FileSystem">
+      <HintPath>..\..\..\..\..\Windows\Microsoft.NET\assembly\GAC_MSIL\System.IO.Compression.FileSystem\v4.0_4.0.0.0__b77a5c561934e089\System.IO.Compression.FileSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.DataVisualization" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Bibliografia.aspx" />
+    <Content Include="Images\favicon.png" />
+    <Content Include="Images\logo4.svg" />
+    <Content Include="Images\logo.svg" />
+    <Content Include="Images\torn-page.png" />
+    <Content Include="Bienvenida.aspx" />
+    <Content Include="Ayuda.aspx" />
+    <Content Include="Images\Ayuda\11.png" />
+    <Content Include="Images\Ayuda\12.png" />
+    <Content Include="Images\Ayuda\13.png" />
+    <Content Include="Images\Ayuda\14.png" />
+    <Content Include="Images\Ayuda\15.png" />
+    <Content Include="Images\exportarbackup.png" />
+    <Content Include="Images\iatext.jpg" />
+    <Content Include="Images\importarbackup.png" />
+    <Content Include="MisExtractos.aspx" />
+    <Content Include="Images\Ayuda\1.png" />
+    <Content Include="Images\Ayuda\10.png" />
+    <Content Include="Images\Ayuda\2.png" />
+    <Content Include="Images\Ayuda\3.png" />
+    <Content Include="Images\Ayuda\4.png" />
+    <Content Include="Images\Ayuda\5.png" />
+    <Content Include="Images\Ayuda\6.png" />
+    <Content Include="Images\Ayuda\7.png" />
+    <Content Include="Images\Ayuda\8.png" />
+    <Content Include="Images\Ayuda\9.png" />
+    <Content Include="Images\logo2.png" />
+    <Content Include="Images\logo3.png" />
+    <Content Include="Images\logo1.png" />
+    <Content Include="Images\logoproyexcerpta.png" />
+    <Content Include="Scripts\functions.js" />
+    <Content Include="Scripts\owlcarousel\.gitattributes" />
+    <Content Include="Scripts\owlcarousel\.gitignore" />
+    <Content Include="Scripts\owlcarousel\dist\assets\ajax-loader.gif" />
+    <Content Include="Scripts\owlcarousel\dist\assets\owl.carousel.css" />
+    <Content Include="Scripts\owlcarousel\dist\assets\owl.carousel.min.css" />
+    <Content Include="Scripts\owlcarousel\dist\assets\owl.theme.default.css" />
+    <Content Include="Scripts\owlcarousel\dist\assets\owl.theme.default.min.css" />
+    <Content Include="Scripts\owlcarousel\dist\assets\owl.theme.green.css" />
+    <Content Include="Scripts\owlcarousel\dist\assets\owl.theme.green.min.css" />
+    <Content Include="Scripts\owlcarousel\dist\assets\owl.video.play.png" />
+    <Content Include="Scripts\owlcarousel\dist\owl.carousel.js" />
+    <Content Include="Scripts\owlcarousel\dist\owl.carousel.min.js" />
+    <Content Include="Scripts\owlcarousel\docs\assets\css\animate.css" />
+    <Content Include="Scripts\owlcarousel\docs\assets\css\docs.theme.min.css" />
+    <Content Include="Scripts\owlcarousel\docs\assets\img\bird_blue_32.png" />
+    <Content Include="Scripts\owlcarousel\docs\assets\img\download.png" />
+    <Content Include="Scripts\owlcarousel\docs\assets\img\feature-drag.png" />
+    <Content Include="Scripts\owlcarousel\docs\assets\img\feature-modern.png" />
+    <Content Include="Scripts\owlcarousel\docs\assets\img\feature-module.png" />
+    <Content Include="Scripts\owlcarousel\docs\assets\img\feature-options.png" />
+    <Content Include="Scripts\owlcarousel\docs\assets\img\feature-responsive.png" />
+    <Content Include="Scripts\owlcarousel\docs\assets\img\feature-zombie.png" />
+    <Content Include="Scripts\owlcarousel\docs\assets\img\owl-logo.png" />
+    <Content Include="Scripts\owlcarousel\docs\assets\img\twitter_25.png" />
+    <Content Include="Scripts\owlcarousel\docs\assets\js\app.js" />
+    <Content Include="Scripts\owlcarousel\docs\assets\js\foundation.min.js" />
+    <Content Include="Scripts\owlcarousel\docs\assets\owlcarousel\assets\ajax-loader.gif" />
+    <Content Include="Scripts\owlcarousel\docs\assets\owlcarousel\assets\owl.carousel.css" />
+    <Content Include="Scripts\owlcarousel\docs\assets\owlcarousel\assets\owl.carousel.min.css" />
+    <Content Include="Scripts\owlcarousel\docs\assets\owlcarousel\assets\owl.theme.default.css" />
+    <Content Include="Scripts\owlcarousel\docs\assets\owlcarousel\assets\owl.theme.default.min.css" />
+    <Content Include="Scripts\owlcarousel\docs\assets\owlcarousel\assets\owl.theme.green.css" />
+    <Content Include="Scripts\owlcarousel\docs\assets\owlcarousel\assets\owl.theme.green.min.css" />
+    <Content Include="Scripts\owlcarousel\docs\assets\owlcarousel\assets\owl.video.play.png" />
+    <Content Include="Scripts\owlcarousel\docs\assets\owlcarousel\owl.carousel.js" />
+    <Content Include="Scripts\owlcarousel\docs\assets\owlcarousel\owl.carousel.min.js" />
+    <Content Include="Scripts\owlcarousel\docs\assets\vendors\foundation.min.js" />
+    <Content Include="Scripts\owlcarousel\docs\assets\vendors\highlight.js" />
+    <Content Include="Scripts\owlcarousel\docs\assets\vendors\jquery.min.js" />
+    <Content Include="Scripts\owlcarousel\docs\assets\vendors\jquery.mousewheel.min.js" />
+    <Content Include="Scripts\owlcarousel\docs\demos\animate.html" />
+    <Content Include="Scripts\owlcarousel\docs\demos\autoheight.html" />
+    <Content Include="Scripts\owlcarousel\docs\demos\autoplay.html" />
+    <Content Include="Scripts\owlcarousel\docs\demos\autowidth.html" />
+    <Content Include="Scripts\owlcarousel\docs\demos\basic.html" />
+    <Content Include="Scripts\owlcarousel\docs\demos\center.html" />
+    <Content Include="Scripts\owlcarousel\docs\demos\demos.html" />
+    <Content Include="Scripts\owlcarousel\docs\demos\events.html" />
+    <Content Include="Scripts\owlcarousel\docs\demos\lazyLoad.html" />
+    <Content Include="Scripts\owlcarousel\docs\demos\merge.html" />
+    <Content Include="Scripts\owlcarousel\docs\demos\mousewheel.html" />
+    <Content Include="Scripts\owlcarousel\docs\demos\responsive.html" />
+    <Content Include="Scripts\owlcarousel\docs\demos\rtl.html" />
+    <Content Include="Scripts\owlcarousel\docs\demos\stagepadding.html" />
+    <Content Include="Scripts\owlcarousel\docs\demos\test.html" />
+    <Content Include="Scripts\owlcarousel\docs\demos\urlhashnav.html" />
+    <Content Include="Scripts\owlcarousel\docs\demos\video.html" />
+    <Content Include="Scripts\owlcarousel\docs\docs\api-classes.html" />
+    <Content Include="Scripts\owlcarousel\docs\docs\api-events.html" />
+    <Content Include="Scripts\owlcarousel\docs\docs\api-options.html" />
+    <Content Include="Scripts\owlcarousel\docs\docs\dev-buildin-plugins.html" />
+    <Content Include="Scripts\owlcarousel\docs\docs\dev-external.html" />
+    <Content Include="Scripts\owlcarousel\docs\docs\dev-plugin-api.html" />
+    <Content Include="Scripts\owlcarousel\docs\docs\dev-styles.html" />
+    <Content Include="Scripts\owlcarousel\docs\docs\started-faq.html" />
+    <Content Include="Scripts\owlcarousel\docs\docs\started-installation.html" />
+    <Content Include="Scripts\owlcarousel\docs\docs\started-welcome.html" />
+    <Content Include="Scripts\owlcarousel\docs\docs\support-changelog.html" />
+    <Content Include="Scripts\owlcarousel\docs\docs\support-contact.html" />
+    <Content Include="Scripts\owlcarousel\docs\docs\support-contributing.html" />
+    <Content Include="Scripts\owlcarousel\docs\index.html" />
+    <Content Include="Scripts\owlcarousel\docs_src\assets\css\animate.css" />
+    <Content Include="Scripts\owlcarousel\docs_src\assets\img\bird_blue_32.png" />
+    <Content Include="Scripts\owlcarousel\docs_src\assets\img\download.png" />
+    <Content Include="Scripts\owlcarousel\docs_src\assets\img\feature-drag.png" />
+    <Content Include="Scripts\owlcarousel\docs_src\assets\img\feature-modern.png" />
+    <Content Include="Scripts\owlcarousel\docs_src\assets\img\feature-module.png" />
+    <Content Include="Scripts\owlcarousel\docs_src\assets\img\feature-options.png" />
+    <Content Include="Scripts\owlcarousel\docs_src\assets\img\feature-responsive.png" />
+    <Content Include="Scripts\owlcarousel\docs_src\assets\img\feature-zombie.png" />
+    <Content Include="Scripts\owlcarousel\docs_src\assets\img\owl-logo.png" />
+    <Content Include="Scripts\owlcarousel\docs_src\assets\img\twitter_25.png" />
+    <Content Include="Scripts\owlcarousel\docs_src\assets\js\app.js" />
+    <Content Include="Scripts\owlcarousel\docs_src\assets\js\foundation.min.js" />
+    <Content Include="Scripts\owlcarousel\docs_src\assets\vendors\foundation.min.js" />
+    <Content Include="Scripts\owlcarousel\docs_src\assets\vendors\highlight.js" />
+    <Content Include="Scripts\owlcarousel\docs_src\assets\vendors\jquery.min.js" />
+    <Content Include="Scripts\owlcarousel\docs_src\assets\vendors\jquery.mousewheel.min.js" />
+    <Content Include="Scripts\owlcarousel\docs_src\helpers\modulo.js" />
+    <Content Include="Scripts\owlcarousel\docs_src\helpers\test.js" />
+    <Content Include="Scripts\owlcarousel\Gruntfile.js" />
+    <Content Include="Scripts\owlcarousel\src\img\ajax-loader.gif" />
+    <Content Include="Scripts\owlcarousel\src\img\owl.video.play.png" />
+    <Content Include="Scripts\owlcarousel\src\js\owl.animate.js" />
+    <Content Include="Scripts\owlcarousel\src\js\owl.autoheight.js" />
+    <Content Include="Scripts\owlcarousel\src\js\owl.autoplay.js" />
+    <Content Include="Scripts\owlcarousel\src\js\owl.autorefresh.js" />
+    <Content Include="Scripts\owlcarousel\src\js\owl.carousel.js" />
+    <Content Include="Scripts\owlcarousel\src\js\owl.hash.js" />
+    <Content Include="Scripts\owlcarousel\src\js\owl.lazyload.js" />
+    <Content Include="Scripts\owlcarousel\src\js\owl.navigation.js" />
+    <Content Include="Scripts\owlcarousel\src\js\owl.support.js" />
+    <Content Include="Scripts\owlcarousel\src\js\owl.support.modernizr.js" />
+    <Content Include="Scripts\owlcarousel\src\js\owl.video.js" />
+    <Content Include="Scripts\owlcarousel\test\index.html" />
+    <Content Include="Scripts\owlcarousel\test\unit\autoplay.js" />
+    <Content Include="Scripts\owlcarousel\test\unit\core.js" />
+    <None Include="Styles\Site.scss" />
+    <Content Include="Usuarios.aspx" />
+    <Content Include="Extractos.aspx" />
+    <Content Include="Cuenta.aspx" />
+    <Content Include="AnotarExtracto.aspx" />
+    <Content Include="Florilegios.aspx" />
+    <Content Include="Images\bg.jpg" />
+    <Content Include="Default.aspx" />
+    <Content Include="Logout.aspx" />
+    <Content Include="Registro.aspx" />
+    <Content Include="Styles\Site.css" />
+    <Content Include="Global.asax" />
+    <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.4.1.js" />
+    <Content Include="Scripts\jquery-1.4.1.min.js" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Code\Backup.cs" />
+    <Compile Include="App_Code\Estructura.cs" />
+    <Compile Include="App_Code\Florilegio.cs" />
+    <Compile Include="App_Code\FuenteBibliografica.cs" />
+    <Compile Include="App_Code\Extracto.cs" />
+    <Compile Include="App_Code\Log.cs" />
+    <Compile Include="App_Code\Popup.cs" />
+    <Compile Include="App_Code\Usuario.cs" />
+    <Compile Include="Bibliografia.aspx.cs">
+      <DependentUpon>Bibliografia.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Bibliografia.aspx.designer.cs">
+      <DependentUpon>Bibliografia.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Bienvenida.aspx.cs">
+      <DependentUpon>Bienvenida.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Bienvenida.aspx.designer.cs">
+      <DependentUpon>Bienvenida.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App_Code\Email.cs" />
+    <Compile Include="App_Code\cifrado.cs" />
+    <Compile Include="Ayuda.aspx.cs">
+      <DependentUpon>Ayuda.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ayuda.aspx.designer.cs">
+      <DependentUpon>Ayuda.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MisExtractos.aspx.cs">
+      <DependentUpon>MisExtractos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MisExtractos.aspx.designer.cs">
+      <DependentUpon>MisExtractos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Usuarios.aspx.cs">
+      <DependentUpon>Usuarios.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Usuarios.aspx.designer.cs">
+      <DependentUpon>Usuarios.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Extractos.aspx.cs">
+      <DependentUpon>Extractos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Extractos.aspx.designer.cs">
+      <DependentUpon>Extractos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cuenta.aspx.cs">
+      <DependentUpon>Cuenta.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cuenta.aspx.designer.cs">
+      <DependentUpon>Cuenta.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AnotarExtracto.aspx.cs">
+      <DependentUpon>AnotarExtracto.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AnotarExtracto.aspx.designer.cs">
+      <DependentUpon>AnotarExtracto.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Florilegios.aspx.cs">
+      <DependentUpon>Florilegios.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Florilegios.aspx.designer.cs">
+      <DependentUpon>Florilegios.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Logout.aspx.cs">
+      <DependentUpon>Logout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Logout.aspx.designer.cs">
+      <DependentUpon>Logout.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Registro.aspx.cs">
+      <DependentUpon>Registro.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Registro.aspx.designer.cs">
+      <DependentUpon>Registro.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App_Code\FicheroPDF.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Site.Master.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site.Master.designer.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="Backup\" />
+    <Folder Include="Log\" />
+    <Folder Include="PDF\" />
+    <Folder Include="XML\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Site.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="Properties\PublishProfiles\Perfil1.pubxml" />
+    <Content Include="Styles\mermaid.ttf" />
+    <Content Include="Scripts\owlcarousel\.travis.yml" />
+    <Content Include="Scripts\owlcarousel\bower.json" />
+    <Content Include="Scripts\owlcarousel\CONTRIBUTING.md" />
+    <Content Include="Scripts\owlcarousel\dist\LICENSE" />
+    <Content Include="Scripts\owlcarousel\dist\README.md" />
+    <Content Include="Scripts\owlcarousel\docs\assets\owlcarousel\README.md" />
+    <Content Include="Scripts\owlcarousel\docs\assets\vendors\jquery.min.map" />
+    <Content Include="Scripts\owlcarousel\docs_src\assets\scss\custom.scss" />
+    <Content Include="Scripts\owlcarousel\docs_src\assets\scss\demos.scss" />
+    <Content Include="Scripts\owlcarousel\docs_src\assets\scss\docs.scss" />
+    <Content Include="Scripts\owlcarousel\docs_src\assets\scss\docs.theme.scss" />
+    <Content Include="Scripts\owlcarousel\docs_src\assets\scss\highlight.scss" />
+    <Content Include="Scripts\owlcarousel\docs_src\assets\scss\_settings.scss" />
+    <Content Include="Scripts\owlcarousel\docs_src\assets\vendors\jquery.min.map" />
+    <Content Include="Scripts\owlcarousel\docs_src\data\classes.json" />
+    <Content Include="Scripts\owlcarousel\docs_src\data\events.json" />
+    <Content Include="Scripts\owlcarousel\docs_src\data\features.json" />
+    <Content Include="Scripts\owlcarousel\docs_src\data\options.json" />
+    <Content Include="Scripts\owlcarousel\docs_src\templates\layouts\demos.hbs" />
+    <Content Include="Scripts\owlcarousel\docs_src\templates\layouts\docs.hbs" />
+    <Content Include="Scripts\owlcarousel\docs_src\templates\layouts\home.hbs" />
+    <Content Include="Scripts\owlcarousel\docs_src\templates\pages\demos\animate.hbs" />
+    <Content Include="Scripts\owlcarousel\docs_src\templates\pages\demos\autoheight.hbs" />
+    <Content Include="Scripts\owlcarousel\docs_src\templates\pages\demos\autoplay.hbs" />
+    <Content Include="Scripts\owlcarousel\docs_src\templates\pages\demos\autowidth.hbs" />
+    <Content Include="Scripts\owlcarousel\docs_src\templates\pages\demos\basic.hbs" />
+    <Content Include="Scripts\owlcarousel\docs_src\templates\pages\demos\center.hbs" />
+    <Content Include="Scripts\owlcarousel\docs_src\templates\pages\demos\demos.hbs" />
+    <Content Include="Scripts\owlcarousel\docs_src\templates\pages\demos\events.hbs" />
+    <Content Include="Scripts\owlcarousel\docs_src\templates\pages\demos\lazyLoad.hbs" />
+    <Content Include="Scripts\owlcarousel\docs_src\templates\pages\demos\merge.hbs" />
+    <Content Include="Scripts\owlcarousel\docs_src\templates\pages\demos\mousewheel.hbs" />
+    <Content Include="Scripts\owlcarousel\docs_src\templates\pages\demos\responsive.hbs" />
+    <Content Include="Scripts\owlcarousel\docs_src\templates\pages\demos\rtl.hbs" />
+    <Content Include="Scripts\owlcarousel\docs_src\templates\pages\demos\stagepadding.hbs" />
+    <Content Include="Scripts\owlcarousel\docs_src\templates\pages\demos\test.hbs" />
+    <Content Include="Scripts\owlcarousel\docs_src\templates\pages\demos\urlhashnav.hbs" />
+    <Content Include="Scripts\owlcarousel\docs_src\templates\pages\demos\video.hbs" />
+    <Content Include="Scripts\owlcarousel\docs_src\templates\pages\docs\api-classes.hbs" />
+    <Content Include="Scripts\owlcarousel\docs_src\templates\pages\docs\api-events.hbs" />
+    <Content Include="Scripts\owlcarousel\docs_src\templates\pages\docs\api-options.hbs" />
+    <Content Include="Scripts\owlcarousel\docs_src\templates\pages\docs\dev-buildin-plugins.hbs" />
+    <Content Include="Scripts\owlcarousel\docs_src\templates\pages\docs\dev-external.hbs" />
+    <Content Include="Scripts\owlcarousel\docs_src\templates\pages\docs\dev-plugin-api.hbs" />
+    <Content Include="Scripts\owlcarousel\docs_src\templates\pages\docs\dev-styles.hbs" />
+    <Content Include="Scripts\owlcarousel\docs_src\templates\pages\docs\started-faq.hbs" />
+    <Content Include="Scripts\owlcarousel\docs_src\templates\pages\docs\started-installation.hbs" />
+    <Content Include="Scripts\owlcarousel\docs_src\templates\pages\docs\started-welcome.hbs" />
+    <Content Include="Scripts\owlcarousel\docs_src\templates\pages\docs\support-changelog.hbs" />
+    <Content Include="Scripts\owlcarousel\docs_src\templates\pages\docs\support-contact.hbs" />
+    <Content Include="Scripts\owlcarousel\docs_src\templates\pages\docs\support-contributing.hbs" />
+    <Content Include="Scripts\owlcarousel\docs_src\templates\pages\index.hbs" />
+    <Content Include="Scripts\owlcarousel\docs_src\templates\partials\footer.hbs" />
+    <Content Include="Scripts\owlcarousel\docs_src\templates\partials\head.hbs" />
+    <Content Include="Scripts\owlcarousel\docs_src\templates\partials\header.hbs" />
+    <Content Include="Scripts\owlcarousel\docs_src\templates\partials\home-carousel.hbs" />
+    <Content Include="Scripts\owlcarousel\docs_src\templates\partials\home-features.hbs" />
+    <Content Include="Scripts\owlcarousel\docs_src\templates\partials\home-hero.hbs" />
+    <Content Include="Scripts\owlcarousel\docs_src\templates\partials\home-teaser-text.hbs" />
+    <Content Include="Scripts\owlcarousel\docs_src\templates\partials\javascripts.hbs" />
+    <Content Include="Scripts\owlcarousel\docs_src\templates\partials\releated-docs.hbs" />
+    <Content Include="Scripts\owlcarousel\docs_src\templates\partials\sidenav-docs.hbs" />
+    <Content Include="Scripts\owlcarousel\docs_src\templates\partials\title.hbs" />
+    <Content Include="Scripts\owlcarousel\docs_src\templates\partials\vendors.hbs" />
+    <Content Include="Scripts\owlcarousel\ISSUE_TEMPLATE.md" />
+    <Content Include="Scripts\owlcarousel\LICENSE" />
+    <Content Include="Scripts\owlcarousel\package-lock.json" />
+    <Content Include="Scripts\owlcarousel\package.json" />
+    <Content Include="Scripts\owlcarousel\README.md" />
+    <Content Include="Scripts\owlcarousel\ROADMAP.md" />
+    <Content Include="Scripts\owlcarousel\src\js\.jscsrc" />
+    <Content Include="Scripts\owlcarousel\src\js\.jshintrc" />
+    <Content Include="Scripts\owlcarousel\src\scss\owl.carousel.scss" />
+    <Content Include="Scripts\owlcarousel\src\scss\owl.theme.default.scss" />
+    <Content Include="Scripts\owlcarousel\src\scss\owl.theme.green.scss" />
+    <Content Include="Scripts\owlcarousel\src\scss\_animate.scss" />
+    <Content Include="Scripts\owlcarousel\src\scss\_autoheight.scss" />
+    <Content Include="Scripts\owlcarousel\src\scss\_core.scss" />
+    <Content Include="Scripts\owlcarousel\src\scss\_lazyload.scss" />
+    <Content Include="Scripts\owlcarousel\src\scss\_theme.default.scss" />
+    <Content Include="Scripts\owlcarousel\src\scss\_theme.green.scss" />
+    <Content Include="Scripts\owlcarousel\src\scss\_theme.scss" />
+    <Content Include="Scripts\owlcarousel\src\scss\_video.scss" />
+    <Content Include="Scripts\owlcarousel\_config.json" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>2982</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>https://localhost:44334/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

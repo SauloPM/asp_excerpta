@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="imgBiblioteca1" xml:space="preserve">
+    <value>~/Images/ayuda/biblioteca/espanol1.png</value>
+  </data>
+  <data name="imgBiblioteca2" xml:space="preserve">
+    <value>~/Images/ayuda/biblioteca/espanol2.png</value>
+  </data>
+  <data name="imgBiblioteca3" xml:space="preserve">
+    <value>~/Images/ayuda/biblioteca/espanol3.png</value>
+  </data>
+  <data name="imgBuscar1" xml:space="preserve">
+    <value>~/Images/ayuda/buscar/espanol1.png</value>
+  </data>
+  <data name="imgBuscar2" xml:space="preserve">
+    <value>~/Images/ayuda/buscar/espanol2.png</value>
+  </data>
+  <data name="imgHojear1" xml:space="preserve">
+    <value>~/Images/ayuda/hojear/espanol1.png</value>
+  </data>
+  <data name="imgHojear2" xml:space="preserve">
+    <value>~/Images/ayuda/hojear/espanol2.png</value>
+  </data>
+  <data name="imgHojear3" xml:space="preserve">
+    <value>~/Images/ayuda/hojear/espanol3.png</value>
+  </data>
+  <data name="labelBiblioteca1" xml:space="preserve">
+    <value>&lt;u&gt;Lista de fuentes bibliográficas:&lt;/u&gt;
+&lt;br&gt;&lt;br&gt;
+Inicialmente se nos muestra una lista con todas las fuentes bibliográficas almacenadas en el sistema. Si hiciéramos clic en la cabecera de la lista, en lugar de mostrarse el contenido alfabéticamente de la A a la Z, se mostraría de la Z a la A, y nuevamente de la A a la Z si volviésemos a hacer clic en ella. Además, disponemos de un recuento de las mismas encima de la lista, a la derecha. A la izquierda aparece un selector desplegable. Al hacer clic en él podemos seleccionar una letra, de tal forma que solo se visualizarán aquellas fuentes bibliográficas que comiencen por la letra seleccionada. Debajo de la lista, encontramos un botón que nos permite descargar en un fichero de texto la lista de fuentes bibliográficas cargada.</value>
+  </data>
+  <data name="labelBiblioteca2" xml:space="preserve">
+    <value>En la siguiente imagen se nos muestra la lista de fuentes bibliográficas que comienzan por la letra "J", ya que hemos seleccionado en este ejemplo esa letra, como puede apreciarse en el selector desplegable. Este caso es análogo para cualquiera de las otras letras seleccionadas. Si quisiéramos volver a visualizar la lista completa, habría que seleccionar la opción "Bibliografía completa" en el selector desplegable. Nótese que si descargáramos la lista de fuentes bibliográficas en caso de haber seleccionado una letra en concreto, solo se descargarían aquellas fuentes que comiencen por dicha letra. Es decir, el contenido del fichero de texto descargado varía en función de la letra inicial seleccionada.</value>
+  </data>
+  <data name="labelBiblioteca3" xml:space="preserve">
+    <value>&lt;u&gt;Inserción de nuevas fuentes bibliográficas:&lt;/u&gt;
+&lt;br&gt;&lt;br&gt;
+Podemos incorporar nuevas fuentes bibliográficas. Para ello, disponemos del formulario que se muestra en la siguiente imagen, disponible en la segunda pestaña de esta sección. Algunos de los campos del formulario están deshabilitados porque hemos de seleccionar una de las tres opciones. Si activásemos la primera opción, se habilitarían los campos "Artículo" y "Revista"; si activásemos la segunda opción, se habilitarían los campos "Capítulo", "Libro" y "Editores o coordinadores"; y si activásemos la tercera opción, se habilitaría el campo "Libro". Esto es así por el cumplimiento de la normativa APA, que admite varios formatos, según el caso que más convenga al usuario.</value>
+  </data>
+  <data name="labelBiblioteca4" xml:space="preserve">
+    <value>Todos los campos habilitados son obligatorios. Una vez completado el formulario, si no hubiera errores, la fuente bibliográfica quedaría pendiente hasta que el administrador la valide posteriormente. Cuando esto ocurra, aparecerá en la lista junto con las demás referencias.</value>
+  </data>
+  <data name="labelBuscar1" xml:space="preserve">
+    <value>Configura el filtro de búsqueda para que muestre los extractos que desees. Inicialmente no se muestra ningún resultado, ya el filtro de búsqueda no ha sido configurado. Todos los campos son opcionales, de hecho, puedes realizar una búsqueda con el filtro vacío, pero se mostrarán todos los extractos existentes en el sistema. Si has configurado el filtro de búsqueda y deseas reiniciarlo, puedes hacerlo rápidamente haciendo clic en el botón "Limpiar", sin necesidad de tener que establecer el valor por defecto para cada campo.</value>
+  </data>
+  <data name="labelBuscar10" xml:space="preserve">
+    <value>El operador interrogante funciona de manera similar que el asterisco, pero para un solo carácter. Por ejemplo, escribiendo “am?re” encontraría coincidencia en “amore” o en “amare”, ya que ambos casos empiezan por “am” y terminan por “re”. No daría como coincidencia “amorem”, ya que este caso no termina en “re”, sino en “rem”.</value>
+  </data>
+  <data name="labelBuscar11" xml:space="preserve">
+    <value>Podemos combinar estos dos operadores y utilizarlos tantas veces como queramos para combinar su uso y enriquecer tanto como queramos nuestras búsquedas.</value>
+  </data>
+  <data name="labelBuscar12" xml:space="preserve">
+    <value>La búsqueda simple solo nos permitía buscar un único florilegio, autor u obra. La búsqueda avanzada nos permite buscar más de un florilegio, más de un autor y más de una obra si quisiéramos. Otra limitación de la búsqueda simple era que la búsqueda por aproximación se realizaba a la vez para el capítulo, subcapítulo extracto y TLL. La búsqueda avanzada nos permite realizar una búsqueda por aproximación de manera específica y separada para todos los campos, a saber, florilegio, autor, obra, capítulo, subcapítulo, extracto y TLL.</value>
+  </data>
+  <data name="labelBuscar13" xml:space="preserve">
+    <value>Los operadores de aproximación “*” y “?” se siguen pudiendo utilizar del mismo modo que la búsqueda por aproximación de la búsqueda simple. Lo mismo sucede con el operador “|” para buscar dos o más valores para cada campo. Por ejemplo, escribiendo “g. maior | io. murmellius”, estaríamos buscando aquellos extractos pertenecientes al florilegio Maior o al Murmellius. Si quisiéramos encontrar extractos que pertenecieran a ambos florilegios a la vez, en lugar de utilizar “|” utilizaremos “&amp;”.</value>
+  </data>
+  <data name="labelBuscar14" xml:space="preserve">
+    <value>Como podemos observar, a la izquierda tenemos selectores de operadores lógicos. Por defecto, todos estos operadores están inicializados a "Y", aunque podemos seleccionar también el operador "O". Tras seleccionar cualquiera de los dos, se aplicará sobre el valor del siguiente ítem que no sea por defecto. Es decir, si por ejemplo hemos seleccionado el florilegio Murmellius junto con el operador "O", pero no hemos seleccionado ningún autor, aunque sí una obra, este operador se aplicará entre el florilegio y la obra, obviando al autor, ya que no se ha seleccionado ninguno.</value>
+  </data>
+  <data name="labelBuscar2" xml:space="preserve">
+    <value>Puedes establecer un valor en los ítems que desees. Los tres primeros son selectores desplegables. El primero de ellos te permite seleccionar un florilegio, el segundo un autor, y el tercero una obra. Es preferible que seleccione un valor para estos ítems ordenadamente, a saber, primero el florilegio, luego el autor y luego la obra, ya que, si se ha seleccionado, por ejemplo, el florilegio Murmellius, solo se mostrarán aquellos autores cuyas obras se encuentren extractadas en dicho florilegio, y si se ha seleccionado, por ejemplo, el autor Ovidius, solo se mostrarán sus obras. Si la asignación de valores para estos tres selectores no se realiza ordenadamente, al seleccionar un florilegio, los selectores de autor y obra se reinician, mientras que si seleccionamos un autor, se reiniciará solo el de obra.</value>
+  </data>
+  <data name="labelBuscar3" xml:space="preserve">
+    <value>Los dos campos restantes se configuran mediante entrada de texto. Para estos dos campos la búsqueda se realiza sobre el capítulo, subcapítulo, extracto y TLL. El primero de los dos permite realizar una búsqueda por aproximación de sintagmas o subcadenas, mientras que el segundo permite realizar una búsqueda de una o más palabras.</value>
+  </data>
+  <data name="labelBuscar4" xml:space="preserve">
+    <value>Si en la búsqueda por aproximación escribiéramos “medicina dolores”, encontraría coincidencias en aquellos extractos que contuviesen la palabra “medicina” seguida obligatoriamente de la palabra “dolores” en uno o más de los campos afectados que mencionamos anteriormente (capítulo, subcapítulo, extracto o TLL). Es decir, es obligatorio para satisfacer esta búsqueda que las palabras del sintagma aparezcan todas y en el mismo orden.</value>
+  </data>
+  <data name="labelBuscar5" xml:space="preserve">
+    <value>Otro aspecto importante es que si escribiéramos, por ejemplo, la palabra “amor”, encontraría coincidencias en aquellos extractos que contuviesen única y exclusivamente la palabra “amor” en cualquiera de los campos mencionados. Es decir, si por ejemplo un extracto contuviese la palabra “amorem” en el capítulo, no satisfaría la búsqueda, ya que “amor” no es lo mismo que “amorem”, aunque la primera palabra esté contenida dentro de la segunda. Tampoco satisfaría la búsqueda un extracto que contuviera ”amor est”, ya que no hemos escrito “est” en el campo de búsqueda por aproximación.</value>
+  </data>
+  <data name="labelBuscar6" xml:space="preserve">
+    <value>Es posible buscar más de un sintagma o subcadena en la búsqueda por aproximación (tantos como deseemos). Para ello, hemos de separarlos con “|”. Si quisiéramos que todos ellos estuvieran presentes en al menos alguno de los campos capítulo, subcapítulo, extracto o TLL, habría que seleccionar la opción Y. En caso de que nos bastase con uno solo como mínimo, habríamos de seleccionar la opción O.</value>
+  </data>
+  <data name="labelBuscar7" xml:space="preserve">
+    <value>La búsqueda por palabras realiza una búsqueda obviando el orden de aparición en el que hayamos escrito las palabras que deseemos buscar. Por ejemplo, si escribiéramos “turpis amor” con la opción Y seleccionada, encontraría coincidencias en aquellos extractos que contuviesen la palabra “turpis” y la palabra “amor” en el capítulo, subcapítulo, extracto o TLL. Es decir, deben aparecer todas las palabras escritas en al menos uno de estos campos para satisfacer la búsqueda. En este caso daría igual que la segunda palabra apareciera antes que la primera o que hubiera palabras entre ambas, el orden no es relevante (al contrario que en la búsqueda por aproximación). Con la opción O seleccionada, no es necesario que estén todas las palabras presentes en alguno de los campos afectados, bastaría con que apareciera como mínimo una sola de ellas.</value>
+  </data>
+  <data name="labelBuscar8" xml:space="preserve">
+    <value>El comportamiento de la búsqueda por aproximación y de palabras se puede configurar mediante el uso de operadores de aproximación (el asterisco “*” y el interrogante “?”).</value>
+  </data>
+  <data name="labelBuscar9" xml:space="preserve">
+    <value>Escribiendo “amor*” daría como coincidencia cualquier sintagma o subcadena que comenzase por la palabra “amor”, como “amor est”, “amorem” (ya que “amor” se encuentra contenida en “amorem”), “amor” (ya que el operador asterisco admite como coincidencia la cadena vacía), etc. Análogamente, escribiendo “*amor” daría como coincidencia cualquier sintagma o subcadena que finalizara por la palabra “amor”. Escribiendo “*amor*” se combinan ambos casos. Es decir, el operador asterisco nos permite obviar cero, uno, dos o infinitos caracteres al realizar la búsqueda.</value>
+  </data>
+  <data name="labelHojear1" xml:space="preserve">
+    <value>En primer lugar selecciona una de las tres categorías disponibles. Puedes seleccionar la búsqueda por florilegio, autor u obra. En cualquiera de los tres casos accedes a una lista de todos los ítems encontrados para la categoría seleccionada. Por ejemplo, si se seleccionó la categoría de búsqueda por autor, se mostrará una lista de todos los autores que se encuentran almacenados en el sistema. Aparte, es posible variar el orden de representación haciendo clic en cualquiera de las cabeceras de la lista.</value>
+  </data>
+  <data name="labelHojear2" xml:space="preserve">
+    <value>Ahora hemos de seleccionar el ítem que deseemos haciendo clic en el botón de la fila correspondiente. De esta forma, accederemos nuevamente a una lista, esta vez de los capítulos relacionados con el ítem que acabamos de seleccionar (Véase imagen siguiente). Si quisiéramos acceder a todos los capítulos existentes, en lugar de seleccionar un ítem en concreto, habría que hacer clic en la opción "Seleccionar todos", que se encuentra más abajo.</value>
+  </data>
+  <data name="labelHojear3" xml:space="preserve">
+    <value>En esta imagen podemos observar la lista de capítulos disponibles para el autor Vergilius, cuyos títulos se encuentran disponibles en la segunda columna. Desde aquí, es posible acceder a cualquiera de las otras dos categorías, o volver hacia atrás para retornar nuevamente a la lista de autores (siguiendo el ejemplo de la imagen).</value>
+  </data>
+  <data name="labelHojear4" xml:space="preserve">
+    <value>Como vemos, se han encontrado tres capítulos para este autor. A partir de aquí, hemos de realizar un proceso análogo al paso anterior, esto es, seleccionar el capítulo deseado haciendo clic en el botón de la fila correspondiente. De esta forma, se nos muestra la ficha de uno de los extractos del capítulo seleccionado, como puede verse en la siguiente imagen.</value>
+  </data>
+  <data name="labelHojear5" xml:space="preserve">
+    <value>Ya en la ficha correspondiente, podemos observar una tabla con todos los detalles de este extracto. Es posible volver hacia la lista de capítulos haciendo clic en el botón "Atrás". También, es posible navegar entre las distintas fichas de los extractos encontrados (suponiendo que se haya encontrado más de uno) a través de los controles direccionales que se encuentran encima de la tabla. Por último, los dos botones de la parte inferior nos permiten descargar el contenido de la ficha del extracto actual en formato de texto o ver la página de la edición renacentista del florilegio utilizada en el proyecto digitalizada en un documento PDF.</value>
+  </data>
+</root>

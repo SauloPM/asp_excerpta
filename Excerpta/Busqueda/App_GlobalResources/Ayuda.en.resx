@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="imgBiblioteca1" xml:space="preserve">
+    <value>~/Images/ayuda/biblioteca/ingles1.png</value>
+  </data>
+  <data name="imgBiblioteca2" xml:space="preserve">
+    <value>~/Images/ayuda/biblioteca/ingles2.png</value>
+  </data>
+  <data name="imgBiblioteca3" xml:space="preserve">
+    <value>~/Images/ayuda/biblioteca/ingles3.png</value>
+  </data>
+  <data name="imgBuscar1" xml:space="preserve">
+    <value>~/Images/ayuda/buscar/ingles1.png</value>
+  </data>
+  <data name="imgHojear1" xml:space="preserve">
+    <value>~/Images/ayuda/hojear/ingles1.png</value>
+  </data>
+  <data name="imgHojear2" xml:space="preserve">
+    <value>~/Images/ayuda/hojear/ingles2.png</value>
+  </data>
+  <data name="imgHojear3" xml:space="preserve">
+    <value>~/Images/ayuda/hojear/ingles3.png</value>
+  </data>
+  <data name="labelBiblioteca1" xml:space="preserve">
+    <value>At the beginning, a list with all the bibliographical sources compiled in the system is displayed. If you clicked on the heading of the list, instead of displaying the contents in alphabetical order from A to Z, it would be arranged from Z to A, and again from A to Z if you clicked again on it. Besides, a count of the registered sources is available on top of the list, to the right. On the left side there is a drop-down selector. If you click on it, you can select a letter, so that only those bibliographical sources starting with the selected letter will be visible. Below the list, you can find a button that allows you to download the displayed list of bibliographical sources as a text file.</value>
+  </data>
+  <data name="labelBiblioteca2" xml:space="preserve">
+    <value>The following picture presents a list of the bibliographical sources starting with the letter "J", since we have selected that letter in this example, as shown in the drop-down selector. This case is similar for any of the other letters selected. If you wanted to view the whole list again, you would have to select the option "Full Bibliography" in the drop-down selector. Notice that if you downloaded the list of bibliographical sources after selecting a particular letter, only those sources starting with that letter would be downloaded. That is, the content of the downloaded text file varies according to the initial letter selected.</value>
+  </data>
+  <data name="labelBiblioteca3" xml:space="preserve">
+    <value>You can add new bibliographical sources. To do this, the form displayed in the following picture is available on the second tab of this section. Some of the form fields are disabled because you have to select one of the three options. If you activated the first option, the fields "Article" and "Journal" would be enabled; if you activated the second option, the fields "Chapter", "Book" and "Editors or Coordinators" would be enabled; and if you activated the third option, the field "Book" would be enabled. This is so to comply with the APA Style, which accepts several formats, depending on the most suitable case for the user.</value>
+  </data>
+  <data name="labelBiblioteca4" xml:space="preserve">
+    <value>All the enabled fields are mandatory. Once the form is completed, and provided that there are no errors, the bibliographical source would be pending until the administrator subsequently validates it. Once this happens, it will appear on the list together with the other references.</value>
+  </data>
+  <data name="labelBuscar1" xml:space="preserve">
+    <value>Configure the search filter to display the excerpts you want. Initially, no results are displayed, since the search filter has not been configured. All the fields are optional, in fact, you can launch a search with an empty filter, but all the existing excerpts within the system will be displayed. If you have configured the search filter and you wish to reset it, you can do it quickly by clicking on the button "Clear", without the need to restore the default value for each field.</value>
+  </data>
+  <data name="labelBuscar2" xml:space="preserve">
+    <value>You can set a value in the items you want. The first three are drop-down selectors. The first one of them allows you to select an anthology, the second one an author, and the third one a work. It is preferable to select a value for these items in order, that is, first the anthology, then the author and then the work. This is due to the fact that they follow a cascade synchronisation. That is to say, if you have selected, for instance, Murmellius anthology, only those authors whose works appear as excerpts within that anthology will be displayed. And if you have selected, for example, the author Ovidius, only his works will be displayed. If the value allocation for these three selectors is not made orderly, when you select an anthology, the author and work selectors will be reset whereas, if an author is selected, only the work selector will be reset.</value>
+  </data>
+  <data name="labelBuscar3" xml:space="preserve">
+    <value>The other items are configured with a text entry. The search for chapter, subchapter, excerpt and TLL allows you to search by word, syntagm or phrase segments separated by inverted commas. If you wanted to launch a simple or combined search for full words, you would have to make use of the last item of the filter.</value>
+  </data>
+  <data name="labelBuscar4" xml:space="preserve">
+    <value>As you can observe, there are selectors of logical operators located to the right. By default, all these operators are set at "Y", although you can also select the operator "O". After selecting any of the two, this will be applied to the value of the next item that is not set by default. That is, if for example you have selected the anthology Murmlellius together with the operator "O", and you have selected a work but not an author, this operator will be applied between the anthology and the work, thus leaving aside the author, since you have not selected any.</value>
+  </data>
+  <data name="labelHojear1" xml:space="preserve">
+    <value>First of all, select one of the three categories available. You can select a search by anthology, by author or by work. In any of the three cases, you will have access to a list of all the items found for the selected category. For example, if the category "Search by Author" is selected, a list of all the authors compiled in the system will be displayed. Apart from this, it is possible to modify the order of display by clicking on any of the headings of the list.</value>
+  </data>
+  <data name="labelHojear2" xml:space="preserve">
+    <value>Then, you have to select the desired item by clicking on the button of the corresponding row. This way, you will access a new list, this time of the chapters related to the selected item (see the following picture). If you wanted to access all the existing chapters, instead of selecting a particular item, you would have to click on the option "Select All", which is located below.</value>
+  </data>
+  <data name="labelHojear3" xml:space="preserve">
+    <value>In this picture, you can see the list of accessible chapters for the author Vergilius, whose titles are available in the second column. From here, it is possible to access any of the other two categories, or to go back to return to the authors list again (following the example of the picture).</value>
+  </data>
+  <data name="labelHojear4" xml:space="preserve">
+    <value>As you can see, three chapters have been found for this author. From here on, you have to carry out a similar process to the previous step, that is, select the desired chapter by clicking on the button of the corresponding row. This way, the file of one of the excerpts from the selected chapter will be displayed, as shown in the following picture.</value>
+  </data>
+  <data name="labelHojear5" xml:space="preserve">
+    <value>Within the corresponding file, you can see a table with all the details of this excerpt. It is possible to go back to the chapters list by clicking on the button "Back". You can also browse the different files of the found excerpts (provided that there are more than one) through the directional controls located on top of the table. Lastly, the two buttons at the bottom allow you to download the contents of the current excerpt file in text format or to view the page of the Renaissance version of the anthology used in the project digitised in a PDF document.</value>
+  </data>
+</root>

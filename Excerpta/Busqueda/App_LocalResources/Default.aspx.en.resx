@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BienvenidoParrafo1.Text" xml:space="preserve">
+    <value>Due to their dissemination and influence, Latin florilegia have had a considerable impact on the configuration of the European thought. However, nowadays, these excerpts are studied using a pre-technological approach that does not allow obtaining significant results quickly. In general, traditional philological methodologies is still applied for the purpose, what involves reading original manuscripts or Renaissance editions of the texts and then transcribe or annotate the relevant fragments to support the analysis or the results of a particular research.</value>
+  </data>
+  <data name="BienvenidoParrafo2.Text" xml:space="preserve">
+    <value>The Excerpta Project solves this problem by providing user-friendly online access to digital Latin poetic florilegia, which are especifically labelled by segments and for comparative studies. It allows simple and combined searches of florilegia (by author, work, title or chapter, subtitle or topic, and word). The objective is to contribute to a higher production and a better quality of the research in the field, or be a source of other humanistic and social studies. Thanks to the EXCERPTA Project, we will not depend exclusively on reading the florilegia directly from the texts to obtain data for analysis.</value>
+  </data>
+  <data name="BienvenidoSubtitulo.Text" xml:space="preserve">
+    <value>What is the ExcerptaProject?</value>
+  </data>
+  <data name="BienvenidoTitulo.Text" xml:space="preserve">
+    <value>Welcome</value>
+  </data>
+  <data name="Callout.Text" xml:space="preserve">
+    <value>The Excerpta Project provides online digital access to Latin poetic florilegia. Therefore, it can contribute to a higher production and better quality of research on the field, or be a source of other humanistic and social studies</value>
+  </data>
+  <data name="ContactoPlaceholder1.Text" xml:space="preserve">
+    <value>Name and surname(s)</value>
+  </data>
+  <data name="ContactoPlaceholder2.Text" xml:space="preserve">
+    <value>From</value>
+  </data>
+  <data name="ContactoPlaceholder3.Text" xml:space="preserve">
+    <value>Subject</value>
+  </data>
+  <data name="ContactoPlaceholder4.Text" xml:space="preserve">
+    <value>Message</value>
+  </data>
+  <data name="ContactoBoton.Text" xml:space="preserve">
+    <value>Send</value>
+  </data>
+  <data name="ContactoTitulo.Text" xml:space="preserve">
+    <value>Contact</value>
+  </data>
+  <data name="ContactoSubtitulo.Text" xml:space="preserve">
+    <value>For further queries or comments, do not hesitate to contact us</value>
+  </data>
+  <data name="Portada.Text" xml:space="preserve">
+    <value>Excerpta Project</value>
+  </data>
+  <data name="ProyectoParrafo1.Text" xml:space="preserve">
+    <value>The Excerpta Project is led by the &lt;a href="http://www.iatext.ulpgc.es/" target="_blank"&gt;Research Institute of Text Analysis and Applications&lt;/a&gt;, at the &lt;a href="https://www.ulpgc.es/node" target="_blank"&gt;Universidad de Las Palmas de Gran Canaria&lt;/a&gt;, with the collaboration of the Historical Library (Universidad de Salamanca), the Storica di Ateneo "Arturo Graf" Library (Università degli Studi di Torino) and the Bayerische StaatsBibliothek (Munich).</value>
+  </data>
+  <data name="ProyectoParrafo2.Text" xml:space="preserve">
+    <value>Los florilegios incorporados al Proyecto Excerpta han sido etiquetados a través de un &lt;a href="http://anotaexcerpta.iatext.ulpgc.es" target="_blank"&gt;aplicativo de anotación&lt;/a&gt; diseñado para que los filólogos puedan realizar las anotaciones de manera cómoda, rápida e intuitiva. Los conceptos de investigación colaborativa y de ciencia abierta están en la base de este proyecto, por lo que los investigadores que lo deseen pueden participar en el proyecto incorporando sus anotaciones de estos florilegios o de otros nuevos en los que estén trabajando. Además, los extractos estarán a disposición de los investigadores en cuanto una obra o autor esté completamente anotado, sin necesidad de esperar a que la totalidad del florilegio se pueda consultar. A continuación damos cuenta de qué florilegios, autores y obras se pueden hacer búsquedas.</value>
+  </data>
+  <data name="ProyectoSubtitulo.Text" xml:space="preserve">
+    <value>Main responsible for the project</value>
+  </data>
+  <data name="ProyectoTitulo.Text" xml:space="preserve">
+    <value>Project</value>
+  </data>
+  <data name="ServiciosItem1.Text" xml:space="preserve">
+    <value>Browse</value>
+  </data>
+  <data name="ServiciosItem2.Text" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="ServiciosItem3.Text" xml:space="preserve">
+    <value>Library</value>
+  </data>
+  <data name="ServiciosParrafo1.Text" xml:space="preserve">
+    <value>Allows to move forward through the chapters and topics of the selected florilegium and to run a preliminary search to determine whether it deals with aspects of interest for the researcher.</value>
+  </data>
+  <data name="ServiciosParrafo2.Text" xml:space="preserve">
+    <value>Allows to search by selecting one or more 
+fields (exceprt, author, work, etc.). Also allows refined or approximate searches of specific words.</value>
+  </data>
+  <data name="ServiciosParrafo3.Text" xml:space="preserve">
+    <value>Presents specific bibliographical references on florilegia studies and offers an online form to researches who may want to incorporate their own papers to the library.</value>
+  </data>
+  <data name="ServiciosTitulo.Text" xml:space="preserve">
+    <value>Services</value>
+  </data>
+  <data name="CreditosTitulo.Text" xml:space="preserve">
+    <value>Credits</value>
+  </data>
+  <data name="CreditosParrafo1.Text" xml:space="preserve">
+    <value>El Proyecto Excerpta está liderado por las división de Humanismo, Retórica y Tradición Clásica y por la división de Lingüística Computacional y Aplicaciones Informáticas del &lt;a href="http://www.iatext.ulpgc.es/" target="_blank"&gt;Instituto Universitario de Análisis y Aplicaciones Textuales&lt;/a&gt; de la &lt;a href="https://www.ulpgc.es/node" target="_blank"&gt;Universidad de Las Palmas de Gran Canaria&lt;/a&gt;.</value>
+  </data>
+  <data name="CreditosParrafo2.Text" xml:space="preserve">
+    <value>The Excerpta Project offers a series of 16th-century Latin poetic florilegia that will be available to researchers gradually. Our corpus will be finally formed by J. Murmellius, R. 
+Estienne, G. Mayer, O. Mirándola and B. Schönborn in these editions:</value>
+  </data>
+</root>
